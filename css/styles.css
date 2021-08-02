@@ -1,0 +1,330 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-size: 16px;
+    background-color: rgb(255, 251, 247);
+}
+/** estilos para el menu **/
+header {
+
+    background-color: rgb(255, 251, 247);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1030;
+    
+    
+
+
+}
+
+.logo
+{
+    width: 14.2rem; /* 224px */
+}
+
+.navbar
+{
+    flex-basis: 50%;
+    text-align: center;
+    margin-left: 0%;
+}
+.navbar--links
+
+{
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+.navbar--links li
+{
+    display: inline-flex;
+    margin-right: 10px;
+    margin-top: 10px;
+
+    
+}
+
+.navbar--links li a {
+
+
+    color: rgb(42, 109, 138);
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+
+.navbar--links a:hover {
+
+    color: rgb(150, 219, 248);
+}
+
+
+.actions--botton {
+
+    margin-top: 10px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: #67B54B; /* Green */
+    border-radius: 5px;
+    padding: 18px 15px;
+    display: inline-block;
+    font-size: 16px;
+    border-style: none;
+}
+
+.actions--botton__1
+{
+    background-color: rgb(255, 251, 247);
+    color: #67B54B;
+}
+
+.actions--botton__2
+{
+    background-color: #67B54B;
+    color: rgb(255, 251, 247);
+    margin-right: 0%;
+}
+/** fin menu----**/
+
+/** estilos del section 1 **/
+
+.section1 {
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    
+    
+    
+
+}
+.imagensSection1 {
+    display: block;
+    margin: auto;
+}
+
+
+
+.section1 h1 {
+
+    color: #025157;
+    font-family: "Alegreya", serif;
+    font-size: 60px;
+    margin-bottom: 0%;
+    
+    
+}
+
+.section1 h3 {
+
+    color: rgba(97, 94, 94, 0.733);
+
+}
+
+.enterEmail {
+
+    margin-top: 20px;
+    
+    
+}
+.botton__Email {
+
+    padding: 15px 32px;
+    font-size: 20px
+    
+    
+
+}
+/** warning **/
+.enterEmail--email {
+
+    
+    margin-right: -3.5px;
+    padding: 16px 32px;
+    border: rgba(125, 127, 128, 0.527) 1px solid;
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+}
+/** warning **/
+.enterEmail--submit {
+
+    
+    background-color: #025157;
+    color: white;
+    margin-right: -3.5px;
+    border-style: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 17px 32px;
+    
+    
+
+}
+.section1 p{
+
+    color:rgba(189, 194, 194, 0.801);
+    font-size: 23px;
+}
+
+/** fin menu----**/
+
+/** estilos seccion 3**/
+
+.tercera-seccion {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.video--p1   {
+
+    margin-left: 15%;
+
+}
+
+.video--p2 {
+
+    margin-right: 15%;
+
+}
+
+.terceraParte{
+    padding: 70px;
+    justify-content: center;
+    background-color: rgb(11, 92, 74);
+    display: grid;
+    grid-template-columns: repeat(2, 440px);
+    grid-template-rows: repeat(2, 290px);
+    gap:30px;
+    text-align: center;
+    
+    
+
+
+}
+
+.terceraParte > article{
+    
+    background-color: #fffff0;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+
+
+
+/** media queris para el menu**/
+
+@media only screen and (max-width: 869px)
+{
+
+    
+
+header {
+
+    display: inline-block;
+    position: relative;
+    
+        
+    
+}
+    
+.logo {
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+}
+
+.section1 {
+    
+    display: inline-block;
+}
+
+.navbar--links li
+{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+    
+}
+.navbar--links li a {
+
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 180%;
+}
+
+.actions--botton{
+
+    font-size: 3.5rem;
+    margin-left: 20px;
+    padding: 38px 15px;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+
+    
+/**--fin de mediaquerys menu--**/
+/**----**/
+/**--media queris de secctions1--**/
+
+
+
+.section1 h1 {
+
+    font-size: 5rem;
+
+}
+
+.section1 h3 {
+
+    font-size: 3.3rem;
+
+}
+
+.botton__Email {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 2.8rem;
+}
+
+.section1 p {
+
+    font-size: 3rem;
+}
+
+.imagensSection1 {
+    margin: 0px;
+}
+
+.imagensSection1--1 {
+
+    margin: 0px;
+    width: 125%;
+}
+
+
+
+}
